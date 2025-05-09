@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    padding: 1rem;
+    width: 400px;
+    height: 400px;
+    flex-direction: column;
+    border: 2px solid blue;
+    align-items: center;
+    background-color: #2c1f1f;
+    border-radius: 1rem;
+  }
+  
+  .container h1 {
+    font-size: 1.8rem;
+  }
+  .container .input-task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container .input-task input {
+    border-radius: 4px;
+    border: none;
+    height: 1.7rem;
+    width: 70%;
+    padding: 1rem;
+    margin: 0.5rem;
+    color: #2c1f1f;
+    font-weight: bolder;
+    font-style: italic;
+  }
+  
+  .container .input-task button {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    height: 2rem;
+    width: 3rem;
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .container .input-task input:focus {
+    outline: 2px solid rgb(0, 47, 255);
+  }
+  
+  .container .task-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  
+  .container h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.7rem 1rem;
+  }
+  
+  .container .task-container li {
+    list-style-type: none;
+    padding: 0.5rem;
+    color: burlywood;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .container .task-container li .btns button {
+    padding: 0.5rem;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+  }

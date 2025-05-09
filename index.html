@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo: Create Your Daily todo list here..!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>To Do List</h1>
+      <div class="input-task">
+        <input
+          type="text"
+          id="write-task"
+          placeholder="Enter Your task here"
+          maxlength="30"
+        />
+        <button class="addBtn">Add</button>
+      </div>
+      <h2>Task list</h2>
+      <ul class="task-container">
+        <li class="task">
+          walking
+          <div class="btns">
+            <button>delete</button>
+          </div>
+        </li>
+      </ul>
+      <!-- <hr /> -->
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
